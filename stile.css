@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  color: #201e1b;
+  background-color: white;
+}
+
+.intestazione {
+font-family: Verdana;
+  background-color: rgb(140, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.menu {
+font-family: georgia-bold;
+  background-color: #d4d4d4;
+  text-align: center;
+  padding: 10px;
+}
+
+.voce {
+  display: inline-block;
+  margin: 0;
+padding:5px 12px ;
+  font-weight: bold;
+color:red;
+font-size:20px;
+-webkit-text-stroke: 0.3px black;
+text-decoration: none;
+}
+
+.contenuto {
+  margin: 20px;
+  padding: 20px;
+}
+
+.evidenziato {
+  background-color: #fbf0ce;
+  border-left: 5px solid #e2a400;
+  padding: 10px;
+}
+
+.piede {
+  background-color: #201e1b;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px;
+}
+.voce + .voce {
+  border-left: 1px solid gray;
+}
